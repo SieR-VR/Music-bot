@@ -5,6 +5,6 @@ services:
       context: ./
       dockerfile: ./Dockerfile
     restart: always
-    command: "npm install && npm run start"
+    command: "npm run start"
     volumes:
       - ./:/app/
